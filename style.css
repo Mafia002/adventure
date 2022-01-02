@@ -1,0 +1,35 @@
+:root{
+    --primary: rgba(73, 40, 46, 0.993);
+    --secondary: hsla(230, 96%, 62%, 0.424);
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    
+    font-size: 4.5rem;
+    color: white;
+    display: grid;
+    place-items: center;
+    place-content: center;
+
+    background: linear-gradient(135deg, var(--primary), var(--secondary)),
+                url(boat-5692036_1920.jpg) no-repeat center center /cover;
+
+
+
+}
+#btn{
+    background-color: var(--primary);
+    font-size: 40px;
+    font-style: none;
+    border-radius: 30pc;
+    
+
+}
+#btn a{
+    text-decoration: none;
+    color: #fff;
+    padding: 15px;
+}
